@@ -9,12 +9,14 @@
           "time_adjust": -28800
         }
       },
-      "path": "/weather/noaa"
+      "path": "/test"
     }
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "Air Temp Deg C Forecast Min",
+  "name": "Weather Forecast Air Min Temp Deg C",
+  "function": "forecast",
+  "source": "gov.noaa.ndfd.rest",
   "source_type": "service",
   "state": "ready",
   "tags": [

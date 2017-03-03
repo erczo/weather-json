@@ -9,16 +9,16 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/test"
     }
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "Air Temp Deg C Blue Oak Avg",
+  "name": "Weather Forecast Icon",
+  "function": "forecast",
+  "source": "gov.noaa.ndfd.rest",
   "source_type": "service",
   "state": "ready",
   "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Air",
   ]
 }

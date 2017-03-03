@@ -1,6 +1,6 @@
 {
   "datapoints_config": [
-    /*{
+    {
       "begins_at": "2017-03-01T00:00:00.000Z",
       "params": {
         "query": {
@@ -9,12 +9,14 @@
           "time_adjust": -28800
         }
       },
-      "path": "/weather/noaa"
-    }*/
+      "path": "/test"
+    }
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "Air Temp Deg C Forecast Max",
+  "name": "Weather Forecast Air Max Temp Deg C",
+  "function": "forecast",
+  "source": "gov.noaa.ndfd.rest",
   "source_type": "service",
   "state": "ready",
   "tags": [
