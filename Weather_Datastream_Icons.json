@@ -1,0 +1,24 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2017-03-01T00:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1003,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/test"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Weather Forecast Icon",
+  "function": "forecast",
+  "source": "gov.noaa.ndfd.rest",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2017-03-01T00:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 1002,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/test"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Weather Forecast Air Min Temp Deg C",
+  "function": "forecast",
+  "source": "gov.noaa.ndfd.rest",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}
